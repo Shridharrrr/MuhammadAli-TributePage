@@ -1,0 +1,17 @@
+{
+  "name": "muhammadali-tributepage",
+  "version": "1.0.0",
+  "description": "First project using tailwindcss - Tribute Page",
+  "license": "ISC",
+  "author": "Shridhar Mandrekar",
+  "type": "commonjs",
+  "main": "Tribute.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @tailwindcss/cli -i ./TributePage/input1.css -o ./TributePage/Tribute.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.1",
+    "tailwindcss": "^4.0.1"
+  }
+}
